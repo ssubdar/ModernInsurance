@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1743684645865"
+    createdUser="sachas.subdar" id="-1c336c3c:195c8cf6f8b:-338a"
+    type="environment_resource" updatedTimestamp="1748510599977"
+    updatedUser="sachas.subdar" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="hostname" value="whateverserver"/>
+        <evbindings>
+            <evbinding
+                evLogicalItemId="-2ed52f5:1963e0b579e:-7ea9:705997585:408339756" evPhysicalItemId="-2ed52f5:1963e0b579e:-7ea9:-508342785:1544155186"/>
+            <evbinding
+                evLogicalItemId="-31a8bf9e:19711368a0c:-47c0:705997642:408339756" evPhysicalItemId="-31a8bf9e:19711368a0c:-47c0:-508342728:1544155186"/>
+            <evbinding
+                evLogicalItemId="-6507b1e4:16df30c08be:-7ec7:1220038982:408339756" evPhysicalItemId="-6507b1e4:16df30c08be:-7ec7:-170606544:1544155186"/>
+        </evbindings>
+    </resourceConfig>
+</editableResource>

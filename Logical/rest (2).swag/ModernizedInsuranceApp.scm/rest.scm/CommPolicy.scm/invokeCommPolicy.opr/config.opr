@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1748510600001"
+    createdUser="sachas.subdar"
+    id="-31a8bf9e:19711368a0c:-47c0:641708534:-807255066"
+    type="operation_resource" updatedTimestamp="1748510600001"
+    updatedUser="sachas.subdar" version="1.0">
+    <syncdetails compare="invokeCommPolicy" lastSynced="1748510600001" sourceid="-31a8bf9e:19711368a0c:-47c0">
+        <sourcepath path="paths"/>
+        <sourcepath path="/ModernizedInsuranceApp/rest/CommPolicy"/>
+        <sourcepath path="post"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="124,199,255"
+        dependencies="-31a8bf9e:19711368a0c:-47c0:705997642:408339756,-31a8bf9e:19711368a0c:-47c0:-339052013:-332410441"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="-31a8bf9e:19711368a0c:-47c0:705997642:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="-31a8bf9e:19711368a0c:-47c0:705997642:408339756"
+        maxTime="0"
+        mepEndSchemaID="-31a8bf9e:19711368a0c:-47c0:-339052013:-1551637993"
+        mepEndSchemaNodeFormatter="JSON.nodeformatter"
+        mepEndSchemaroot="invokeCommPolicy_200[Object]"
+        mepEndUsed="true"
+        mepStartSchemaID="-31a8bf9e:19711368a0c:-47c0:-339052013:-332410441"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="invokeCommPolicy" mepType="IN_OUT"
+        minTime="0" stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="-31a8bf9e:19711368a0c:-47c0:705997642:408339756">
+        <mepStart id="body"
+            schemaID="-31a8bf9e:19711368a0c:-47c0:-339052013:-1551637993"
+            schemaNodeFormatter="JSON.nodeformatter" schemaroot="invokeCommPolicy body[Object]"/>
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="POST" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="POST" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7" value="" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c meTy="String" name="Accept" type="7"
+                        value="application/json" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="application/json" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                    <_c meTy="String" name="Content-Type" type="7"
+                        value="application/json" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="application/json" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="POST"
+                URL="/ModernizedInsuranceApp/rest/CommPolicy"
+                allowSubPath="false" consumerType="Participate"
+                filterHeaders="true" filterMethod="true" filterResourcePath="true">
+                <filterHeadersList>
+                    <header disabled="true" name="Accept" type="7" value="application/json"/>
+                    <header disabled="true" name="Content-Type" type="7" value="application/json"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

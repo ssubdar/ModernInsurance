@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1748510600023"
+    createdUser="sachas.subdar"
+    id="-31a8bf9e:19711368a0c:-47c0:705997642:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1748510600023" updatedUser="sachas.subdar" version="1.1">
+    <syncdetails
+        compare="LOGICALHTTPdp1-ap-51794357.prod.hclpnp.com:9082"
+        lastSynced="1748510600023" sourceid="-31a8bf9e:19711368a0c:-47c0">
+        <sourcepath path="HTTP"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="110,237,216"/>
+    </resourceConfig>
+</editableResource>

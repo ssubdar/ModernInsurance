@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1748510600033"
+    createdUser="sachas.subdar"
+    id="-31a8bf9e:19711368a0c:-47c0:-339052013:-332410441"
+    selfDescribing="rest (2)" type="parameterized_url_schema"
+    updatedTimestamp="1748510600033" updatedUser="sachas.subdar" version="1.0">
+    <syncdetails compare="1748510599970" lastSynced="1748510600033" sourceid="-31a8bf9e:19711368a0c:-47c0"/>
+    <documentation>
+        <description value="http://dp1-ap-51794357.prod.hclpnp.com:9082/ModernizedInsuranceApp/rest/swagger.json&#xa;&#xa;"/>
+    </documentation>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig name="rest (2)">
+            <url templateName="invokeCommPolicy">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="ModernizedInsuranceApp" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="rest"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="CommPolicy"
+                    parameterName="" type="7"/>
+            </url>
+            <url templateName="invokeCustomerDetail">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="ModernizedInsuranceApp" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="rest"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="CustomerDetail" parameterName="" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>
