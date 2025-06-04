@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1749042981033"
+    createdUser="sachas.subdar" id="-5526b19c:1973b15e187:-7eab"
+    selfDescribing="dp1-ap-51794357.prod.hclpnp.com (10.115.50.18)"
+    type="host_machine_resource" updatedTimestamp="1749042981033"
+    updatedUser="sachas.subdar" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="10.115.50.18" user_host_name="dp1-ap-51794357.prod.hclpnp.com">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>
