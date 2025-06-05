@@ -4,9 +4,7 @@
     domain="default" extDocPrefix="" name="ModernInsurance"
     owner="sachas.subdar" rulesCacheUri="%%PROJECT/ROOT%%Rules"
     updateResultsDbOnItemChange="false" uuid="00000197-3583-5b2b-0000-009359f7b1a0">
-    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
-        <environmentVariable evdescription="" key="hostname" value=""/>
-    </rootEnvironmentConfig>
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
     <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
     <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
         trustSource="INBUILT_CA" trustStorePath="">
@@ -36,10 +34,10 @@
         <automationServer enabled="false" hostname="" port="443"
             projectId="-1" projectName="--No Project Selected--"
             publishResults="false" trustSource="TRUST_ALL"
-            trustStorePassword="#com.ghc.1!2c41" trustStorePath=""/>
+            trustStorePassword="#com.ghc.1!5cf4" trustStorePath=""/>
     </serverSettings>
     <permissionsSettings ADtrustSource="NONE"
-        ADtrustStorePassword="#com.ghc.1!45ab" ADtrustStorePath=""
+        ADtrustStorePassword="#com.ghc.1!9914" ADtrustStorePath=""
         autoLogin="true" host="AP-PNP-DC02"
         permFactId="ldap.permissions.factory.none" port="389" pswd="DFcdkZnKDCCorhRmrG33OorWeVWk/SddBKx5xTSH+mg=$s1RGTI5HYXI+DO5MiNesRg/jsH2iY/H+DRa64G0rrMc="/>
 </_c>

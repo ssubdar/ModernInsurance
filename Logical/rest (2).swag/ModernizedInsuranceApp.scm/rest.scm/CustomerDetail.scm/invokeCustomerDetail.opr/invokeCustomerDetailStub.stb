@@ -2,7 +2,7 @@
 <editableResource createdTimestamp="1748510615417"
     createdUser="sachas.subdar" id="-31a8bf9e:19711368a0c:-470b"
     references="-31a8bf9e:19711368a0c:-47c0:705997642:408339756,-31a8bf9e:19711368a0c:-47c0:-339052013:-332410441,-31a8bf9e:19711368a0c:-47c0:-339052013:-1551637993"
-    type="stub_resource" updatedTimestamp="1749043054490"
+    type="stub_resource" updatedTimestamp="1749048809416"
     updatedUser="sachas.subdar" version="1.1">
     <loggingConfiguration debug="true" resultWriterLoggingLevel="FULL" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -234,7 +234,7 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                     <_c meTy="String"
-                                    name="Accept"
+                                    name="accept"
                                     sch="Http Subscribe"
                                     type="7" version="1.2">
                                     <fieldActionGroup>
@@ -245,7 +245,7 @@
                                     </fieldActionGroup>
                                     </_c>
                                     <_c meTy="String"
-                                    name="Content-Type"
+                                    name="content-type"
                                     sch="Http Subscribe"
                                     type="7" version="1.2">
                                     <fieldActionGroup>
@@ -384,7 +384,7 @@
                                     <property
                                     name="Format" value="0"/>
                                     </fieldExpander>
-                                    <contentTree>{"dob":"1894-06-25","email":"andrewpd@mymail.com        ","error":"","firstName":"Andrew    ","lastName":"Pandey-Test         ","mobileNum":"1234566             ","outputProperties":{"lastName":"","error":"","email":"","firstName":"","mobileNum":"","dob":""}}<defaultActions>
+                                    <contentTree>{"dob":"1894-06-25","email":"andrewpd@mymail.com        ","error":"","firstName":"Andrew    ","lastName":"VS Response       ","mobileNum":"1234566             ","outputProperties":{"lastName":"","error":"","email":"","firstName":"","mobileNum":"","dob":""}}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
 

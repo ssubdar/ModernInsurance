@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1748510599979"
-    createdUser="sachas.subdar"
-    id="-31a8bf9e:19711368a0c:-47c0:-508342728:1544155186"
-    selfDescribing="http dp1-ap-51794357.prod.hclpnp.com:9082"
-    type="http_transport" updatedTimestamp="1749128229827"
-    updatedUser="sachas.subdar" version="1.0">
-    <syncdetails
-        compare="PHYSICALHTTPdp1-ap-51794357.prod.hclpnp.com:9082"
-        lastSynced="1748510599979" sourceid="-31a8bf9e:19711368a0c:-47c0">
-        <sourcepath path="HTTP"/>
-        <sourcepath path="dp1-ap-51794357.prod.hclpnp.com:9082"/>
-    </syncdetails>
+<editableResource createdTimestamp="1749128259844"
+    createdUser="sachas.subdar" id="-5526b19c:1973b15e187:-6c66"
+    selfDescribing="IP - http 10.115.50.18:9082" type="http_transport"
+    updatedTimestamp="1749128259844" updatedUser="sachas.subdar" version="1.0">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
-    <resourceConfig transportName="" transportTemplateName="HTTP">
+    <resourceConfig transportName="IP" transportTemplateName="HTTP">
         <messageProperties
             ReasonPhrase="No Stub available that matches the request"
             clientConnectionsPerHost="100" credDomain=""
-            credPassword="#com.ghc.1!07bb" credPreemptive="false"
-            credType="0" credUser=""
-            httpHost="dp1-ap-51794357.prod.hclpnp.com" httpNtlmDomain=""
-            httpPort="9082" httpProxyHost=""
-            httpProxyPassword="#com.ghc.1!c837" httpProxyPort=""
+            credPassword="#com.ghc.1!8f35" credPreemptive="false"
+            credType="0" credUser="" httpHost="10.115.50.18"
+            httpNtlmDomain="" httpPort="9082" httpProxyHost=""
+            httpProxyPassword="#com.ghc.1!6af5" httpProxyPort=""
             httpProxyUsername="" httpResourceRoot=""
             httpServerSocketBindAddressOverride=""
             httpServerSocketPortOverride="" httpSocketTimeout=""
@@ -29,7 +20,7 @@
             useSsl="false" version="4">
             <kerberos Anon="false" Conf="false" Custom="true"
                 Enabled="false" Integ="false" KDC="" Loc=""
-                MutAuth="false" Principal="" Pwd="#com.ghc.1!9f30"
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!71e2"
                 Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
             <oauth authURL="" clientassertion="" clientid=""
                 clientsecret="" enabled="false"

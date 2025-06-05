@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1743684645865"
-    createdUser="sachas.subdar" id="-1c336c3c:195c8cf6f8b:-338a"
-    type="environment_resource" updatedTimestamp="1749043649169"
+<editableResource createdTimestamp="1749128212500"
+    createdUser="sachas.subdar" id="-5526b19c:1973b15e187:-6c77"
+    type="environment_resource" updatedTimestamp="1749128293329"
     updatedUser="sachas.subdar" version="1.0">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
         <evbindings>
             <evbinding
-                evLogicalItemId="-31a8bf9e:19711368a0c:-47c0:705997642:408339756" evPhysicalItemId="-31a8bf9e:19711368a0c:-47c0:-508342728:1544155186"/>
+                evLogicalItemId="-31a8bf9e:19711368a0c:-47c0:705997642:408339756" evPhysicalItemId="-5526b19c:1973b15e187:-6c66"/>
         </evbindings>
     </resourceConfig>
 </editableResource>
